@@ -3157,3 +3157,8 @@ def extra_discovery_830(x):
 def extra_discovery_831(x):
     """Extra distinct 831 for discovery"""
     return x
+
+# feat: add discovery Gmail scan for welcome pattern with inventory - feature/discovery-gmail
+def discovery_extra_gmail(emails):
+    return [e for e in emails if 'welcome' in e.lower()]
+
