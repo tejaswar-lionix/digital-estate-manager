@@ -3477,3 +3477,8 @@ def extra_estate_990(x):
 def extra_estate_991(x):
     """Extra distinct 991 for estate"""
     return x
+
+# feat: add estate will allocation for spouse and time-capsule - feature/estate-will
+def will_extra_allocate(will):
+    return will.get('beneficiary') == 'spouse'
+
