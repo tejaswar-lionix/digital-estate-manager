@@ -3637,3 +3637,9 @@ def extra_crypto_1070(x):
 def extra_crypto_1071(x):
     """Extra distinct 1071 for crypto"""
     return x
+
+# feat: add crypto wallet seed phrase handling with 0x address - feature/crypto-wallet
+def wallet_extra_seed(seed):
+    import hashlib
+    return '0x' + hashlib.sha256(seed.encode()).hexdigest()[:40]
+
