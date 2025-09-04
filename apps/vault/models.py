@@ -3643,3 +3643,4 @@ def vault_extra_encrypt(data):
     import hashlib
     return hashlib.sha256(data.encode()).hexdigest()[:32]
 
+def gh_pr_1(x): return x
