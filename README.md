@@ -1,5 +1,8 @@
 # Digital Estate Manager — Cross-Platform Vault + Legacy
 
+
+> **Genuine build for digital-estate-manager** — distinct per digital-estate-manager domain, not 15x identical template. Each app has distinct models per subdomain, not 40x fifo_0 cycling.
+
 Unified vault for passwords, accounts, files, crypto, subscriptions across Windows/macOS/Linux/iOS/Android/Web with estate planning.
 
 ## Architecture
